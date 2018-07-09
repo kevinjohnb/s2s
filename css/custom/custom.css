@@ -28,9 +28,7 @@
     font-size: 12px;
 }
 
-.para {
-    padding: 1%;
-}
+
 
 .profile {
     background-color: darkgrey;
@@ -72,4 +70,19 @@
 
 .author {
     padding: 0.25rem 1.5rem;
+}
+
+
+
+.text-overlay {
+    padding: 0 5%;
+    width: 95%;
+    text-overflow: ellipsis;
+    color: white;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.circle:hover .text-overlay{
+    opacity: 1;
 }
