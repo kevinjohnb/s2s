@@ -16,6 +16,11 @@
     color: blue;
     text-align: center;
     padding-bottom: 1.5rem;
+
+    background: #4198b8; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #4198b8 , #479473,  #79c056);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .content {
@@ -34,30 +39,37 @@
     padding: 2.5% 15%;
 }
 
-.photo {
-    border-radius: 50%;
-    border: 1px solid red;
-    background-position: center center;
-    background-size: contain;
+.hero {
+    top: -73px;
+    z-index: -99;
+/*    position: relative;*/
+    background-image: url(../../images/s2s_hero.jpg);
+    height: 25vh;
+    min-height: 523px;
 }
 
-.photo-1 {
-    background-image: url('../../images/student.jpg')
+.hero-text {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.photo-2 {
-    background-image: url('../../images/representative.jpg')
+.saying {
+    border-radius: 25px;
+    padding: 0 1rem;
+    margin: 5px;
+    background: #4198b8; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #4198b8 , #479473,  #79c056);
 }
 
-.photo-3 {
-    background-image: url('../../images/teacher.jpg')
+.words {
+    font-size: 20px;
+    padding: 0.25rem 1.5rem;
 }
 
-.photo-4 {
-    background-image: url('../../images/sponsor.jpg')
+.author {
+    padding: 0.25rem 1.5rem;
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> master
