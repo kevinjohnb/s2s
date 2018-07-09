@@ -1,10 +1,58 @@
-<style>
-
-</style>
 .opacity {
     opacity: .5;
 }
 
 .bg-footer {
     background-color: #4B4B4B;
+}
+
+.intro {
+    height: 20%;
+    padding: 2.5% 15%;
+    margin: auto;
+}
+
+.heading {
+    color: blue;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.content {
+    text-align: center;
+    font-size: 12px;
+}
+
+.para {
+    padding: 1%;
+}
+
+.profile {
+    background-color: darkgrey;
+    height: 25%;
+    text-align: center;
+    padding: 2.5% 15%;
+}
+
+.photo {
+    border-radius: 50%;
+    border: 1px solid red;
+    background-position: center center;
+    background-size: contain;
+}
+
+.photo-1 {
+    background-image: url('../../images/student.jpg')
+}
+
+.photo-2 {
+    background-image: url('../../images/representative.jpg')
+}
+
+.photo-3 {
+    background-image: url('../../images/teacher.jpg')
+}
+
+.photo-4 {
+    background-image: url('../../images/sponsor.jpg')
 }
